@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(50,50,50);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+nav{
+    background-color: rgb(200,200,200);
+    position: fixed;
+    width: 100%;
+}
+
+nav a{
+    line-height: 40px;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(50,50,50);
+    padding: 0px 20px 0px 20px;
+    font-size: 18px;
+
+}
+
+nav a:hover{
+    color: rgb(200,200,200);
+    background-color: rgb(50,50,50);
+
+}
+
+#pageTitle{
+    width: 50%;
+    text-align: center;
+    margin: 0% 0% 0% 25%;
+    padding: 5% 0% 0% 0%;
+
+
+}
+
+
+h1{
+    font-size: 48px;
+    color: rgb(230,230,230);
+
+}
+
+
+#aboutMe{
+    width: 50%;
+    text-align: center;
+    margin: 10% 0% 0% 23%;
+    padding: 2%;
+    border: solid 5px rgb(200,200,200);
+
+
+}
+
+p{
+    font-size: 24px;
+    color: rgb(200,200,200);
+    line-height: 1.2em;
+
+}
+
+#reloadButton{
+    margin: 2% 0% 0% 48%;
+    padding: 10px 15px;
+    background-color: rgb(50,50,50);
+    color: rgb(200,200,200);
+
+
+}
+
+#reloadButton:hover{
+    background-color: rgb(200,200,200);
+    color: rgb(50,50,50);
+
+}
