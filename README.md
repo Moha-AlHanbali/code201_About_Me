@@ -9,3 +9,6 @@
 
 ## About Me lab03
 
+- Added more questions
+- Added Top 10 List
+- Planning on achieving stretch goals later
