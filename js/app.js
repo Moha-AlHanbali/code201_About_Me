@@ -1,3 +1,4 @@
+// eslint-disable-next-line quotes
 `use strict`;
 
 let userscore = 0;
@@ -118,7 +119,7 @@ alert('How about we try something else!');
 let mynumber = 77;
 
 
-for (i=0; i<4 ; i++){
+for (let i=0; i<4 ; i++){
   let guess=Number(prompt('Guess the number I have in my mind, it is between (1-100)!'));
 
   if (mynumber > guess){
@@ -143,7 +144,7 @@ alert('Okay, next question!');
 
 let mynumbers = [12, 19, 25, 95];
 
-for (i=0; i<5; i++){
+for (let i=0; i<5; i++){
   let guess2=Number(prompt('Can you guess any number related to me?'));
   //  if (mynumbers.includes(guess2))
   if (guess2 === mynumbers[0] || guess2 === mynumbers[1] || guess2 === mynumbers[2] || guess2 === mynumbers[3]){
