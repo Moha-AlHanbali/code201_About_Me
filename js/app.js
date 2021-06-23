@@ -115,7 +115,6 @@ default:
 alert('How about we try something else!');
 
 
-
 let mynumber = 77;
 
 
@@ -143,19 +142,35 @@ alert('Okay, next question!');
 
 
 let mynumbers = [12, 19, 25, 95];
+let breaker = false;
 
 for (let i=0; i<5; i++){
+
   let guess2=Number(prompt('Can you guess any number related to me?'));
+
   //  if (mynumbers.includes(guess2))
-  if (guess2 === mynumbers[0] || guess2 === mynumbers[1] || guess2 === mynumbers[2] || guess2 === mynumbers[3]){
-    alert('Correct! ' + guess2 + ' is one of them, good job!');
-    // console.log("Correct! " + guess2 + " is one of them, good job!");
-    userscore++;
+  //  if (guess2 === mynumbers[0] || guess2 === mynumbers[1] || guess2 === mynumbers[2] || guess2 === mynumbers[3])
+
+  for (let j=0; j<mynumbers.length; j++ ){
+
+
+    if(guess2 === mynumbers[j]){
+      alert('Correct! ' + guess2 + ' is one of them, good job!');
+
+      // console.log("Correct! " + guess2 + " is one of them, good job!");
+
+      userscore++;
+
+      breaker = true;
+
+      break;}
+  }
+  if (breaker === true){
     break;
-  } else{
-    alert('Incorrect, try again!' + ' You have ' + Number(5-i) + ' attempts left.');
+  } else {alert('Incorrect, try again!' + ' You have ' + Number(5-i) + ' attempts left.');
   }
 }
+
 
 alert('The correct answers are (12 ,19, 25, and 95).');
 
