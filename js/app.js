@@ -10,7 +10,7 @@ let username= prompt('What is your name?');
 alert('Hello ' + username + ', I hope you\'re well!');
 
 alert('I will ask you few questions ' + username + ', please answer them with (yes/no).');
-
+function q1f(){
 let q1a= prompt('Have we ever met before, ' + username + '?').toLowerCase();
 
 switch(q1a) {
@@ -30,7 +30,9 @@ default:
   // console.log("Please answer the next question with (yes/no).");
   break;
 }
-
+}
+q1f();
+function q2f (){
 let q2a= prompt('Do you think I like music?').toLowerCase();
 
 switch(q2a) {
@@ -50,7 +52,9 @@ default:
   // console.log("Please answer the next question with (yes/no).");
   break;
 }
-
+}
+q2f();
+function q3f(){
 let q3a= prompt('Do you think my favorite color is blue?').toLowerCase();
 
 switch(q3a) {
@@ -70,6 +74,11 @@ default:
   // console.log("Please answer the next question with (yes/no).");
   break;
 }
+}
+q3f();
+
+function q4f() {
+  
 
 let q4a= prompt('Guess this one, do I spend a moderate amount of time on the internet?').toLowerCase();
 
@@ -91,6 +100,11 @@ default:
 
   break;
 }
+}
+q4f();
+
+function q5f() {
+  
 
 let q5a= prompt('Finally, do you think I was ever into reading?').toLowerCase();
 
@@ -111,12 +125,14 @@ default:
   // console.log("Please answer the next question with (yes/no).");
   break;
 }
+}
+q5f();
 
 alert('How about we try something else!');
 
 
 let mynumber = 77;
-
+function q6f(){
 
 for (let i=0; i<4 ; i++){
   let guess=Number(prompt('Guess the number I have in my mind, it is between (1-100)!'));
@@ -134,6 +150,8 @@ for (let i=0; i<4 ; i++){
     break;
   }
 }
+} 
+q6f();
 
 alert('The only correct answer is 77!');
 
@@ -143,7 +161,7 @@ alert('Okay, next question!');
 
 let mynumbers = [12, 19, 25, 95];
 let breaker = false;
-
+function q7f(){
 for (let i=0; i<5; i++){
 
   let guess2=Number(prompt('Can you guess any number related to me?'));
@@ -171,7 +189,8 @@ for (let i=0; i<5; i++){
   }
 }
 
-
+}
+q7f();
 alert('The correct answers are (12 ,19, 25, and 95).');
 
 alert('Your total score is ' + userscore +'/7');
