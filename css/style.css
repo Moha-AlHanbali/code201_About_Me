@@ -26,6 +26,8 @@ nav a:hover{
 
 }
 
+
+
 #pageTitle{
     width: 50%;
     text-align: center;
@@ -48,7 +50,7 @@ h1{
     width: 50%;
     text-align: center;
     margin: 0 auto;
-    padding: 2%;
+    padding: 3% 2% 3% 2%;
     border: solid 5px rgb(200,200,200);
 
 }
@@ -66,7 +68,7 @@ ul li{
 
 #topSongs {
     width: 50%;
-    padding: 2%;
+    padding: 5% 2% 5% 2%;
     margin: 0 auto;
     ;
 }
@@ -83,7 +85,7 @@ ul li{
 
 
 ol li{
-    font-size: 24px;
+    font-size: 20px;
     color: rgb(200,200,200);
     line-height: 1.2em;
     list-style: decimal;
@@ -93,14 +95,21 @@ ol li{
 }
 
 
+#bottom_bar{
+    height: 40px;
+    background-color: rgb(200,200,200);
+}
+
+#bottom_bar:hover{
+    background-color: rgb(150,150,150);
+}
 
 
 
-
-/* 
 
 #reloadButton{
-    margin: 2% 0% 0% 48%;
+    text-align: center;
+    margin: 2% 0% 4% 48%;
     padding: 10px 15px;
     background-color: rgb(50,50,50);
     color: rgb(200,200,200);
@@ -112,4 +121,4 @@ ol li{
     background-color: rgb(200,200,200);
     color: rgb(50,50,50);
 
-} */
+}
